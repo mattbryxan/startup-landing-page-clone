@@ -1,0 +1,188 @@
+
+/*div {
+    border: 1px solid Chocolate;
+}
+*/
+
+/*just to see where these are*/
+
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Navigation Section */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    
+}
+
+.navbar > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;   
+}
+
+.navbar .links {
+    float: right;
+    color: #838994;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    margin-top: 25px;
+    margin-right: 125px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navbar .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.navbar .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.navbar .links li:hover {
+    cursor: pointer;
+    color: #333333;
+  }
+
+.logo {
+  padding: 15px 0px;
+  margin-left: 130px;
+}
+
+/* Feature Section */
+.feature { 
+    background-image: url('http://mattbryantalex.com/images/first-background copy.jpg');
+    background-size: cover;
+    background-position: 0 bottom;
+    background-repeat: no-repeat; 
+    height: 45.938rem;
+    overflow: auto;
+    color: white;
+    text-align: center;
+  }
+
+.feature-heading {
+    font-weight: 100;
+    font-size: 3.125rem;
+    margin-top: 17rem;
+}
+
+
+.feature-tagline {
+    font-weight: 100;
+    font-size: 1.563rem; 
+    margin-top: -1.25rem;
+}
+
+.feature-button {
+    background-color: #f15a29; 
+    border: none;
+    color: white;
+    border-radius: 6px;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.15rem;
+    font-weight: 300;
+    margin-top: 0rem;
+    margin-bottom: 14rem;
+}
+
+.feature-button:hover {
+  background: #fff;
+  color: #c0390c;
+  font-weight: 600;
+}
+
+/*cases and devices section*/
+
+.cases h1{
+  font-weight: 300;
+  font-size: 2.75rem;
+  margin-top: 7rem;
+  text-align: center;
+}
+
+/*.logos {
+  border: 1px solid black;
+    box-sizing: border-box;
+}*/
+  
+
+.devices {
+  
+    width: 33%;
+    display: inline-block;
+    /*border: 1px solid black;
+    box-sizing: border-box;*/
+    text-align: center;
+    margin-bottom: 8rem;
+
+    /* styles to assist with debugging */
+    
+}
+
+.devices h3 {
+  font-weight: 100;
+    font-size: 1.563rem; 
+
+}
+
+
+
+
+
+/*line separator*/
+.line-separator {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height:1px; background: #D3D3D3;
+}
+
+
+.footer {
+  font-weight: 450;
+  font-size: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.footer p {
+  text-align: center;
+  
+}
+
+
+   .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 40px 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+    
+}
+
+
+  
